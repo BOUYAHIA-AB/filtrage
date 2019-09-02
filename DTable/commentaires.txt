@@ -1,0 +1,44 @@
+﻿******************
+* État du projet *
+******************
+
+Établi le 14/03/2019
+++++++++++++++++++++
+
+Ce qu'il y a à faire 
+--------------------
+
+	1) revoir la surcharge de l’opérateur '()'.
+	
+	Actuellement il retourne une variable du type "double" mais désormais il doit retourner des variables de plusieurs types (double, int, string, char, bool).
+
+	2) la méthode 'mergeTable' doit encore être adaptée.
+
+	La condition d’imposer le plus petit nombre de ligne des deux tables comme nombre de ligne du tableau de sortie n'est plus valide. Le maximum des deux nombres de ligne est à considérer et les données manquantes seront des 'NA'.
+
+	Avant de se lancer dans la fusion des tables, la méthode doit vérifier s’il n’y a pas des noms de colonne redondants dans les colonnes à considérer.
+
+	3) la méthode 'write' doit vérifier les valeurs avant l’écriture dans le fichier de sortie et remplacer les valeurs invalides/manquantes par des 'NA'.
+
+Établi le 19/03/2019
+++++++++++++++++++++
+
+Ce qui a été accompli
+---------------------
+
+	1) L'opérateur '()' est devenu un template. En plus des indices de l'élément à récupérer, il prend une valeur par défaut comme argument qu'il retournera si la donnée est invalide. Une seconde version de l'opérateur ne retourne aucune valeur mais prend comme troisième argument un pointeur dirigeant vers la valeur à assigner.
+
+	2) Des masques ont été ajoutés pour permettre une meilleure gestion des données invalides ou manquantes. Lorsqu'une table est créée, ses données sont par défaut initialisées à 'NA' et à 'false' pour les masques. 
+
+	3) La méthode 'write' tient compte du masque pour l'écriture des données (valeurs 'NA').
+
+	4) Dans la méthode 'mergeTable', l'unicité des noms de colonne est vérifiée et en cas échéant, les doublons sont renommés à l'aide d'un indice.
+
+	5) Par défaut, lors de la création d'un table, si aucune liste de noms de colonne n'est indiquée, les noms de colonne sont générés automatiquement 'V1','V2',...
+
+Ce qu'il y a à faire
+--------------------
+
+	1) Méthode pour convertir la date.
+
+	2) Interaction avec CUDA.

@@ -1,0 +1,15 @@
+id;paramatre
+0;BattV
+1;PTemp_C
+2;Temp_1000cm
+3;Temp_464cm
+4;Temp_215cm
+5;Direction_1000cm
+6;Vent_1000cm
+7;Vent_464cm_X19230
+8;Vent_215cm_X19229
+9;Vent_100cm_X19228
+10;HumRel_464cm
+11;Pluie_Tot
+12;Sensit_nb_particules_Tot
+13;Sensit_energiekinetique_Tot

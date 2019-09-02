@@ -1,0 +1,47 @@
+id;description_erreur;capteur;parametre
+100;La station n’a envoyé aucun fichier;Station;All
+101;La station a envoyé un fichier mais on n’arrive pas à charger les données dans DTable;Station;All
+102;le nombre d’enregistrements est moins de ce qui normale, la station n’a pas fait toutes les enregistrements (pour tous les capteurs);Station;All
+200;batterie présente beaucoup de données manquantes;batterie;BattV
+201;thermomètre PTemp_C présente beaucoup de données manquantes;thermomètre PTemp_C;PTemp_C
+202;thermomètre 1000cm présente beaucoup de données manquantes;thermomètre 1000cm;Temp_1000cm
+203;thermomètre 464cm présente beaucoup de données manquantes;thermomètre 464cm;Temp_464cm
+204;thermomètre 215cm présente beaucoup de données manquantes;thermomètre 215cm;Temp_215cm
+205;girouette 1000cm présente beaucoup de données manquantes;girouette 1000cm;Direction_1000cm
+206;anémomètre 1000cm présente beaucoup de données manquantes;anémomètre 1000cm;Vent_1000cm
+207;anémomètre 464cm présente beaucoup de données manquantes;anémomètre 464cm;Vent_464cm_X19230
+208;anémomètre 215cm présente beaucoup de données manquantes;anémomètre 215cm;Vent_215cm_X19229
+209;anémomètre 100cm présente beaucoup de données manquantes;anémomètre 100cm;Vent_100cm_X19228
+210;hygromètre 464cm présente beaucoup de données manquantes;hygromètre 464cm;HumRel_464cm
+211;pluviomètre présente beaucoup de données manquantes;pluviomètre;Pluie_Tot
+212;Sensit_nb_particules_Tot présente beaucoup de données manquantes;Sensit_nb_particules_Tot;Sensit_nb_particules_Tot
+213;Sensit_energiekinetique_Tot présente beaucoup de données manquantes;Sensit_energiekinetique_Tot;Sensit_energiekinetique_Tot
+300;batterie présente beaucoup de données aberrantes;batterie;BattV
+301;thermomètre PTemp_C présente beaucoup de données aberrantes;thermomètre PTemp_C;PTemp_C
+302;thermomètre 1000cm présente beaucoup de données aberrantes;thermomètre 1000cm;Temp_1000cm
+303;thermomètre 464cm présente beaucoup de données aberrantes;thermomètre 464cm;Temp_464cm
+304;thermomètre 215cm présente beaucoup de données aberrantes;thermomètre 215cm;Temp_215cm
+305;girouette 1000cm présente beaucoup de données aberrantes;girouette 1000cm;Direction_1000cm
+306;anémomètre 1000cm présente beaucoup de données aberrantes;anémomètre 1000cm;Vent_1000cm
+307;anémomètre 464cm présente beaucoup de données aberrantes;anémomètre 464cm;Vent_464cm_X19230
+308;anémomètre 215cm présente beaucoup de données aberrantes;anémomètre 215cm;Vent_215cm_X19229
+309;anémomètre 100cm présente beaucoup de données aberrantes;anémomètre 100cm;Vent_100cm_X19228
+310;hygromètre 464cm présente beaucoup de données aberrantes;hygromètre 464cm;HumRel_464cm
+311;pluviomètre présente beaucoup de données aberrantes;pluviomètre;Pluie_Tot
+312;Sensit_nb_particules_Tot présente beaucoup de données aberrantes;Sensit_nb_particules_Tot;Sensit_nb_particules_Tot
+313;Sensit_energiekinetique_Tot présente beaucoup de données aberrantes;Sensit_energiekinetique_Tot;Sensit_energiekinetique_Tot
+400;batterie a envoyé les mêmes valeurs pour toutes les heures de la journée;batterie;BattV
+401;thermomètre PTemp_C a envoyé les mêmes valeurs pour toutes les heures de la journée;thermomètre PTemp_C;PTemp_C
+402;thermomètre 1000cm a envoyé les mêmes valeurs pour toutes les heures de la journée;thermomètre 1000cm;Temp_1000cm
+403;thermomètre 464cm a envoyé les mêmes valeurs pour toutes les heures de la journée;thermomètre 464cm;Temp_464cm
+404;thermomètre 215cm a envoyé les mêmes valeurs pour toutes les heures de la journée;thermomètre 215cm;Temp_215cm
+405;girouette 1000cm a envoyé les mêmes valeurs pour toutes les heures de la journée;girouette 1000cm;Direction_1000cm
+406;anémomètre 1000cm a envoyé les mêmes valeurs pour toutes les heures de la journée;anémomètre 1000cm;Vent_1000cm
+407;anémomètre 464cm a envoyé les mêmes valeurs pour toutes les heures de la journée;anémomètre 464cm;Vent_464cm_X19230
+408;anémomètre 215cm a envoyé les mêmes valeurs pour toutes les heures de la journée;anémomètre 215cm;Vent_215cm_X19229
+409;anémomètre 100cm a envoyé les mêmes valeurs pour toutes les heures de la journée;anémomètre 100cm;Vent_100cm_X19228
+410;hygromètre 464cm a envoyé les mêmes valeurs pour toutes les heures de la journée;hygromètre 464cm;HumRel_464cm
+411;pluviomètre a envoyé les mêmes valeurs pour toutes les heures de la journée;pluviomètre;Pluie_Tot
+412;Sensit_nb_particules_Tot a envoyé les mêmes valeurs pour toutes les heures de la journée;Sensit_nb_particules_Tot;Sensit_nb_particules_Tot
+413;Sensit_energiekinetique_Tot a envoyé les mêmes valeurs pour toutes les heures de la journée;Sensit_energiekinetique_Tot;Sensit_energiekinetique_Tot
+
